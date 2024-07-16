@@ -1,20 +1,21 @@
-
+/* Estilo general del cuerpo */
 body {
     padding-top: 0;
     background-color: #000000;
 }
 
+/* Estilo de la barra de navegación */
 .navbar {
-    background: rgba(60, 200, 255, 0.253); 
+    background: rgba(4, 184, 255, 0.171); 
     display: flex;
     justify-content: space-between;
-    padding: 0 10em!important; 
+    padding: 0 10em !important; 
 }
 
 .navbar-light .navbar-brand {
     color: #f8faf9; 
     display: flex;
-    align-items: center ;
+    align-items: center;
 }
 
 .navbar-light .navbar-nav {
@@ -31,39 +32,49 @@ body {
     color: #f8faf9; 
 }
 
+/* Estilo de la imagen de la sección hero */
 .hero-image img {
     width: 100%;
-    height: auto;
+    height: 100vh; /* Ocupa toda la altura del viewport */
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor sin deformarse */
 }
 
+/* Estilo del carrusel */
 .carousel {
     margin-top: 0;
+    position: relative;
 }
 
 .carousel-item img {
-    height: auto;
-    object-fit: cover;
+    width: 100%;
+    height: 100vh; /* Ocupa toda la altura del viewport */
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor sin deformarse */
 }
 
+/* Estilo del contenedor del logo */
 .contlogo {
     display: flex;
     width: 100%;
     height: 17%;
-    background-color: aqua;
+    background-color: #0CC9EF;
     border-radius: 3px;
     justify-content: center;
     align-items: center;
 }
-.titulo{
+
+/* Estilo de los títulos */
+.titulo {
     font-size: 50px;
     margin-top: 2em;
     margin-bottom: 1em;
     text-align: center;
+}
 
-}
+/* Estilo del pie de página */
 footer {
-    background: aqua;
+    background: #0CC9EF;
 }
+
 .footer-content {
     display: flex;
     justify-content: space-between;
@@ -85,11 +96,14 @@ footer {
     margin: 0 10px;
     font-size: 1.5em;
 }
-.footer-content{
-    padding:1em ;
+
+.footer-content {
+    padding: 1em;
 }
+
+/* Estilo de las tarjetas */
 .card {
-    background: aqua;
+    background: #0CC9EF;
     width: 100%;
     max-width: 300px;
     margin: 10px auto;
@@ -103,8 +117,12 @@ footer {
     object-fit: cover;
 }
 
+/* Estilo del icono de la barra de navegación */
 .v_icon {
     width: 30px;
 }
 
+.btn {
+    margin-bottom: 2em;
+}
 
