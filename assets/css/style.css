@@ -1,0 +1,40 @@
+body {
+    padding-top: 0;
+    background-color: #000000; /* Color de fondo negro */
+}
+
+.navbar {
+    background: rgba(60, 200, 255, 0.253); /* Fondo azul con transparencia */
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel {
+    margin-top: 0;
+}
+
+.carousel-item img {
+    height: auto;
+    object-fit: cover;
+}
+
+#presentation i {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #f8faf9;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #333;
+    margin: 0 10px;
+}
+
+.card {
+    background: aqua; /* Fondo de las tarjetas */
+}
